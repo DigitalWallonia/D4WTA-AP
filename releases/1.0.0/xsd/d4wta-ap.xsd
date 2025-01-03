@@ -64,6 +64,11 @@
           <xs:documentation xml:lang="en">A statement or formal explanation of the meaning of a concept.</xs:documentation>
         </xs:annotation>
       </xs:element>
+      <xs:element name="identifier" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">An unambiguous reference to the resource within a given context.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
       <xs:element name="isInScheme" ref="ConceptSchemeType" maxOccurs="1" minOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Relates a resource (for example a concept) to a concept scheme in which it is included.</xs:documentation>
@@ -74,7 +79,7 @@
           <xs:documentation xml:lang="en">A related resource that supplants, displaces, or supersedes the described resource.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="preferredLabel" type="xs:string" maxOccurs="1" minOccurs="1">
+      <xs:element name="preferredLabel" type="xs:string" maxOccurs="unbounded" minOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">The preferred lexical label for a resource, in a given language.</xs:documentation>
         </xs:annotation>
