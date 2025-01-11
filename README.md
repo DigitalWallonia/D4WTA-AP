@@ -12,4 +12,4 @@ Any problems encountered, or suggestions for new functionalities can be submitte
 /releases: D4WTA-AP releases (1.00, 2.00 etc), each release might have different distributions.
 
 ## License
-Copyright © 2024 Data4Wallonia. All material in this repository is published under the licence CC-BY 4.0, unless explicitly otherwise mentioned. 
+Copyright © 2025  Agence Du Numérique. All material in this repository is published under the licence CC-BY 4.0, unless explicitly otherwise mentioned. 
